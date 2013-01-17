@@ -11,6 +11,8 @@ use IO::File;
 use AI::Pathfinding::OptimizeMultiple;
 use AI::Pathfinding::OptimizeMultiple::PostProcessor;
 
+our $VERSION = '0.0.2';
+
 # TODO : restore later.
 # use MyInput;
 
@@ -576,28 +578,13 @@ __END__
 
 =head1 NAME
 
-AI::Pathfinding::OptimizeMultiple::App::CmdLine
-
-=head1 VERSION
-
-version 0.0.1
-
-=head1 NAME
-
 AI::Pathfinding::OptimizeMultiple::App::CmdLine - the command line application class.
 
 =head1 VERSION
 
-Version 0.0.1
+version 0.0.2
 
-=for foo $self->_input_obj(
-        MyInput->new(
-            {
-                start_board => $self->_start_board(),
-                num_boards => $self->_num_boards(),
-            }
-        )
-    );
+=head1 SUBROUTINES/METHODS
 
 =head2 $self->run()
 

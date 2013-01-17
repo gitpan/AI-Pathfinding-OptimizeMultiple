@@ -31,21 +31,17 @@ __END__
 
 =head1 NAME
 
-optimize-game-ai-multi-tasking
+optimize-game-ai-multi-tasking - command line driver for L<AI::Pathfinding::OptimizeMultiple>
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 DESCRIPTION
 
 To be written.
 
 =encoding utf8
-
-=head1 NAME
-
-optimize-game-ai-multi-tasking - command line driver for L<AI::Pathfinding::OptimizeMultiple>
 
 =head1 AUTHOR
 

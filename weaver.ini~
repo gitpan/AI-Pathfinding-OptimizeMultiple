@@ -1,4 +1,27 @@
-[@Default]
+[@CorePrep]
+
+[Generic / NAME]
+[Version]
+
+[Region  / prelude]
+
+
+[Generic / SYNOPSIS]
+[Generic / DESCRIPTION]
+[Generic / OVERVIEW]
+
+[Collect / ATTRIBUTES]
+command = attr
+
+[Collect / METHODS]
+command = method
+
+[Leftovers]
+
+[Region  / postlude]
+
+[Authors]
+[Legal]
 
 ; [Generic / DESCRIPTION]
 ; required = 1
@@ -10,3 +33,4 @@
 ;
 [Bugs]
 [Support]
+all_modules = 1

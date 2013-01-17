@@ -21,20 +21,6 @@ use Exception::Class
     'AI::Pathfinding::OptimizeMultiple::Error::OutOfQuotas'
 );
 
-__PACKAGE__->mk_acc_ref(\@fields);
-
-sub _init
-{
-    my $self = shift;
-
-    my $args = shift;
-
-    $self->_scan_idx( $args->{'scan_idx'} );
-
-    return 0;
-}
-
-
 sub attach_to
 {
     my $self = shift;
@@ -183,22 +169,6 @@ sub register_params
 __END__
 
 =pod
-
-=head1 NAME
-
-AI::Pathfinding::OptimizeMultiple::IterState
-
-=head1 VERSION
-
-version 0.0.1
-
-=head1 NAME
-
-AI::Pathfinding::OptimizeMultiple::IterState
-
-=head1 VERSION
-
-version 0.0.1
 
 =head1 NAME
 

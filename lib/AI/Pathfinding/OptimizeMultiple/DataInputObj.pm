@@ -12,6 +12,8 @@ use AI::Pathfinding::OptimizeMultiple::Scan;
 use PDL;
 use PDL::IO::FastRaw;
 
+our $VERSION = '0.0.2';
+
 has start_board => (isa => 'Int', is => 'ro', required => 1);
 has num_boards => (isa => 'Int', is => 'ro', required => 1);
 has selected_scans => (isa => 'ArrayRef', is => 'ro', required => 1,
@@ -384,19 +386,13 @@ __END__
 
 =head1 NAME
 
-AI::Pathfinding::OptimizeMultiple::DataInputObj
-
-=head1 VERSION
-
-version 0.0.1
-
-=head1 NAME
-
 AI::Pathfinding::OptimizeMultiple::DataInputObj - handle the data input.
 
 =head1 VERSION
 
-Version 0.0.1
+version 0.0.2
+
+=head1 SUBROUTINES/METHODS
 
 =head2 $self->get_next_id()
 

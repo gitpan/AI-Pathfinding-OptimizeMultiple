@@ -2,6 +2,8 @@ package AI::Pathfinding::OptimizeMultiple::ScanRun;
 
 use MooX qw/late/;
 
+our $VERSION = '0.0.2';
+
 has iters => (isa => 'Int', is => 'rw', required => 1);
 has scan_idx => (isa => 'Int', is => 'ro', required => 1);
 
@@ -25,11 +27,12 @@ __END__
 
 =head1 NAME
 
-AI::Pathfinding::OptimizeMultiple::ScanRun
+AI::Pathfinding::OptimizeMultiple::ScanRun - running scan_idx for certain
+iterations.
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 
@@ -39,15 +42,6 @@ version 0.0.1
 =head1 DESCRIPTION
 
 A class for scan iterations.
-
-=head1 NAME
-
-AI::Pathfinding::OptimizeMultiple::ScanRun - running scan_idx for certain
-iterations.
-
-=head1 VERSION
-
-version 0.0.1
 
 =head1 SLOTS
 
@@ -64,10 +58,6 @@ Number of iterations it ran.
 =head2 my $copy = $scan_run->clone()
 
 Clones the scan.
-
-=head1 VERSION
-
-version 0.0.1
 
 =head1 SEE ALSO
 

@@ -1,5 +1,6 @@
 Build.PL
 Changes
+Changes~
 LICENSE
 MANIFEST
 META.yml
@@ -31,6 +32,7 @@ lib/AI/Pathfinding/OptimizeMultiple/SimulationResults.pm~
 lib/AI/Pathfinding/OptimizeMultiple/Structs.pm~
 rejects.pod
 rejects.pod~
+scripts/bump-version-number.pl
 t/cmdline-app.t
 t/cmdline-app.t~
 t/cpan-changes.t

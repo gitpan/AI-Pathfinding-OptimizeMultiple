@@ -2,6 +2,8 @@ package AI::Pathfinding::OptimizeMultiple::SimulationResults;
 
 use MooX qw/late/;
 
+our $VERSION = '0.0.2';
+
 has status => (isa => 'Str', is => 'ro', required => 1,);
 has total_iters => (isa => 'Int', is => 'ro', required => 1,);
 has scan_runs => (isa => 'ArrayRef[AI::Pathfinding::OptimizeMultiple::ScanRun]', is => 'ro', required => 1,);
@@ -24,11 +26,11 @@ __END__
 
 =head1 NAME
 
-AI::Pathfinding::OptimizeMultiple::SimulationResults
+AI::Pathfinding::OptimizeMultiple::SimulationResults - the simulation results.
 
 =head1 VERSION
 
-version 0.0.1
+version 0.0.2
 
 =head1 SYNOPSIS
 
@@ -36,15 +38,7 @@ version 0.0.1
 
 A class for simulation results.
 
-=head1 NAME
-
-AI::Pathfinding::OptimizeMultiple::SimulationResults - the simulation results.
-
-=head1 VERSION
-
-version 0.0.1
-
-=head1 SLOTS
+=head1 SUBROUTINES/METHODS
 
 =head2 $scan_run->status()
 
@@ -58,8 +52,6 @@ The total iterations count so far.
 
 An array reference of L<AI::Pathfinding::OptimizeMultiple::ScanRun> .
 
-=head1 METHODS
-
 =head2 $self->get_total_iters()
 
 Returns the total iterations.
@@ -67,10 +59,6 @@ Returns the total iterations.
 =head2 $self->get_status()
 
 Returns the status.
-
-=head1 VERSION
-
-version 0.0.1
 
 =head1 SEE ALSO
 
