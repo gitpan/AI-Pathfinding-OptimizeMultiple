@@ -20,7 +20,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "AI-Pathfinding-OptimizeMultiple",
-  "dist_version" => "0.0.2",
+  "dist_version" => "0.0.3",
   "license" => "mit",
   "module_name" => "AI::Pathfinding::OptimizeMultiple",
   "recommends" => {},

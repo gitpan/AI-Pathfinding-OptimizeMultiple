@@ -7,7 +7,7 @@ use MooX qw/late/;
 
 use PDL ();
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 use vars (qw(@fields));
 
@@ -176,7 +176,7 @@ AI::Pathfinding::OptimizeMultiple::IterState - iteration state object.
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SUBROUTINES/METHODS
 

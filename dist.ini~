@@ -8,6 +8,8 @@ copyright_year   = 2012
 [AutoPrereqs]
 [ModuleBuild]
 mb_class = Test::Run::Builder
+testing_command = runtest
+asdlkasdlaksda = asdasda
 [PodSyntaxTests]
 [PodCoverageTests]
 [PruneCruft]
@@ -19,7 +21,3 @@ repository.url = ssh://hg@bitbucket.org/shlomif/fc-solve
 repository.web = http://bitbucket.org/shlomif/fc-solve
 repository.type = hg
 [PodWeaver]
-[TestRun]
-
-[@Default]
--remove = MBTestRunner
