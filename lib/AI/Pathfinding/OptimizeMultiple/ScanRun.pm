@@ -2,7 +2,7 @@ package AI::Pathfinding::OptimizeMultiple::ScanRun;
 
 use MooX qw/late/;
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 has iters => (isa => 'Int', is => 'rw', required => 1);
 has scan_idx => (isa => 'Int', is => 'ro', required => 1);
@@ -32,7 +32,7 @@ iterations.
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 SYNOPSIS
 

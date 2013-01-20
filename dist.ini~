@@ -6,12 +6,17 @@ copyright_year   = 2012
 
 [@Basic]
 [AutoPrereqs]
+[Prereqs]
+MooX::late = 0.007
+MooX::Types::MooseLike::Base = 0
+
 [ModuleBuild]
 mb_class = Test::Run::Builder
 testing_command = runtest
-asdlkasdlaksda = asdasda
 [PodSyntaxTests]
 [PodCoverageTests]
+[Test::Compile]
+fake_home = 1
 [PruneCruft]
 [VersionFromModule]
 [MetaResources]

@@ -1,3 +1,9 @@
+v0.0.4      2013-01-20
+
+    - Add missing Prerequisites
+        - MooX::late
+        - MooX::Types::MooseLike::Base
+
 v0.0.3      2013-01-18
 
     - Fixed broken POD for hyperlinks.

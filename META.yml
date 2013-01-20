@@ -3,6 +3,8 @@ abstract: "optimize path finding searches for a large\nset of initial conditions
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 build_requires:
+  File::Find: 0
+  File::Temp: 0
   Module::Build: 0.3601
   Test::Differences: 0
   Test::More: 0
@@ -24,6 +26,8 @@ requires:
   IO::File: 0
   IO::Handle: 0
   MooX: 0
+  MooX::Types::MooseLike::Base: 0
+  MooX::late: 0.007
   PDL: 0
   PDL::IO::FastRaw: 0
   strict: 0
@@ -32,4 +36,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=AI-Pathfinding-OptimizeMultiple
   repository: ssh://hg@bitbucket.org/shlomif/fc-solve
-version: 0.0.3
+version: 0.0.4

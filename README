@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution AI-Pathfinding-OptimizeMultiple,
-version 0.0.3:
+version 0.0.4:
 
   optimize path finding searches for a large
 set of initial conditions (for better average performance).

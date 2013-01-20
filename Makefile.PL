@@ -12,6 +12,8 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "optimize path finding searches for a large\nset of initial conditions (for better average performance).",
   "AUTHOR" => "Shlomi Fish <shlomif\@cpan.org>",
   "BUILD_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
     "Module::Build" => "0.3601",
     "Test::Differences" => 0,
     "Test::More" => 0
@@ -34,13 +36,15 @@ my %WriteMakefileArgs = (
     "IO::File" => 0,
     "IO::Handle" => 0,
     "MooX" => 0,
+    "MooX::Types::MooseLike::Base" => 0,
+    "MooX::late" => "0.007",
     "PDL" => 0,
     "PDL::IO::FastRaw" => 0,
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.0.3",
+  "VERSION" => "0.0.4",
   "test" => {
     "TESTS" => "t/*.t"
   }

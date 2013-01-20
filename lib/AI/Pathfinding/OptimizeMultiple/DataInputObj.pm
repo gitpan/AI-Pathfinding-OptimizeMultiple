@@ -12,7 +12,7 @@ use AI::Pathfinding::OptimizeMultiple::Scan;
 use PDL;
 use PDL::IO::FastRaw;
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 has start_board => (isa => 'Int', is => 'ro', required => 1);
 has num_boards => (isa => 'Int', is => 'ro', required => 1);
@@ -390,7 +390,7 @@ AI::Pathfinding::OptimizeMultiple::DataInputObj - handle the data input.
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 SUBROUTINES/METHODS
 

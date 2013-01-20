@@ -33,6 +33,7 @@ lib/AI/Pathfinding/OptimizeMultiple/Structs.pm~
 rejects.pod
 rejects.pod~
 scripts/bump-version-number.pl
+t/00-compile.t
 t/cmdline-app.t
 t/cmdline-app.t~
 t/cpan-changes.t

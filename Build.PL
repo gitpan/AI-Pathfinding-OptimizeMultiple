@@ -7,6 +7,8 @@ use lib qw{inc}; use Test::Run::Builder;
 
 my %module_build_args = (
   "build_requires" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
     "Module::Build" => "0.3601",
     "Test::Differences" => 0,
     "Test::More" => 0
@@ -20,7 +22,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "AI-Pathfinding-OptimizeMultiple",
-  "dist_version" => "0.0.3",
+  "dist_version" => "0.0.4",
   "license" => "mit",
   "module_name" => "AI::Pathfinding::OptimizeMultiple",
   "recommends" => {},
@@ -33,6 +35,8 @@ my %module_build_args = (
     "IO::File" => 0,
     "IO::Handle" => 0,
     "MooX" => 0,
+    "MooX::Types::MooseLike::Base" => 0,
+    "MooX::late" => "0.007",
     "PDL" => 0,
     "PDL::IO::FastRaw" => 0,
     "strict" => 0,
