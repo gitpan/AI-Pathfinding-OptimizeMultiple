@@ -36,4 +36,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=AI-Pathfinding-OptimizeMultiple
   repository: ssh://hg@bitbucket.org/shlomif/fc-solve
-version: 0.0.4
+version: 0.0.5

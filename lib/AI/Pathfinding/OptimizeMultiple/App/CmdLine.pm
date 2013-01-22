@@ -11,7 +11,7 @@ use IO::File;
 use AI::Pathfinding::OptimizeMultiple;
 use AI::Pathfinding::OptimizeMultiple::PostProcessor;
 
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 
 # TODO : restore later.
 # use MyInput;
@@ -582,7 +582,7 @@ AI::Pathfinding::OptimizeMultiple::App::CmdLine - the command line application c
 
 =head1 VERSION
 
-version 0.0.4
+version 0.0.5
 
 =head1 SUBROUTINES/METHODS
 
