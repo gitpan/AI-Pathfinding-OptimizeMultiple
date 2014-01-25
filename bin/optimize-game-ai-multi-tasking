@@ -35,7 +35,7 @@ optimize-game-ai-multi-tasking - command line driver for L<AI::Pathfinding::Opti
 
 =head1 VERSION
 
-version 0.0.5
+version 0.0.6
 
 =head1 DESCRIPTION
 

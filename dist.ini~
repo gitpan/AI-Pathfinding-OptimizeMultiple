@@ -15,8 +15,11 @@ testing_command = runtest
 [PodSyntaxTests]
 [PodCoverageTests]
 [Test::Compile]
+skip = scripts
 fake_home = 1
 [PruneCruft]
+[PruneFiles]
+match = ^Rejects/
 [VersionFromModule]
 [MetaResources]
 bugtracker.web = http://rt.cpan.org/NoAuth/Bugs.html?Dist=AI-Pathfinding-OptimizeMultiple
