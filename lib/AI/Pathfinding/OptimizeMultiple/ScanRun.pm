@@ -3,9 +3,11 @@ package AI::Pathfinding::OptimizeMultiple::ScanRun;
 use strict;
 use warnings;
 
+use 5.012;
+
 use MooX qw/late/;
 
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
 has iters => (isa => 'Int', is => 'rw', required => 1);
 has scan_idx => (isa => 'Int', is => 'ro', required => 1);
@@ -35,7 +37,7 @@ iterations.
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 SYNOPSIS
 
@@ -210,6 +212,6 @@ from your repository :)
 
 L<http://bitbucket.org/shlomif/fc-solve>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/fc-solve
+  git clone ssh://git@bitbucket.org/shlomif/fc-solve.git
 
 =cut

@@ -35,7 +35,7 @@ optimize-game-ai-multi-tasking - command line driver for L<AI::Pathfinding::Opti
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 DESCRIPTION
 
@@ -178,6 +178,6 @@ from your repository :)
 
 L<http://bitbucket.org/shlomif/fc-solve>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/fc-solve
+  git clone ssh://git@bitbucket.org/shlomif/fc-solve.git
 
 =cut

@@ -3,9 +3,11 @@ package AI::Pathfinding::OptimizeMultiple::Scan;
 use strict;
 use warnings;
 
+use 5.012;
+
 use MooX qw/late/;
 
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
 has cmd_line => (isa => 'Str', is => 'ro', required => 1,);
 has id => (isa => 'Str', is => 'ro', required => 1,);
@@ -44,7 +46,7 @@ AI::Pathfinding::OptimizeMultiple::Scan
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 SLOTS
 
@@ -236,6 +238,6 @@ from your repository :)
 
 L<http://bitbucket.org/shlomif/fc-solve>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/fc-solve
+  git clone ssh://git@bitbucket.org/shlomif/fc-solve.git
 
 =cut

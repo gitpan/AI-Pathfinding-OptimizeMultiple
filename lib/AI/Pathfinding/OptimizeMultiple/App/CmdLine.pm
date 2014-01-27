@@ -11,7 +11,7 @@ use IO::File;
 use AI::Pathfinding::OptimizeMultiple;
 use AI::Pathfinding::OptimizeMultiple::PostProcessor;
 
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
 # TODO : restore later.
 # use MyInput;
@@ -582,7 +582,7 @@ AI::Pathfinding::OptimizeMultiple::App::CmdLine - the command line application c
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 SUBROUTINES/METHODS
 
@@ -767,6 +767,6 @@ from your repository :)
 
 L<http://bitbucket.org/shlomif/fc-solve>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/fc-solve
+  git clone ssh://git@bitbucket.org/shlomif/fc-solve.git
 
 =cut

@@ -3,9 +3,11 @@ package AI::Pathfinding::OptimizeMultiple::SimulationResults;
 use strict;
 use warnings;
 
+use 5.012;
+
 use MooX qw/late/;
 
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
 has status => (isa => 'Str', is => 'ro', required => 1,);
 has total_iters => (isa => 'Int', is => 'ro', required => 1,);
@@ -33,7 +35,7 @@ AI::Pathfinding::OptimizeMultiple::SimulationResults - the simulation results.
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 SYNOPSIS
 
@@ -206,6 +208,6 @@ from your repository :)
 
 L<http://bitbucket.org/shlomif/fc-solve>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/fc-solve
+  git clone ssh://git@bitbucket.org/shlomif/fc-solve.git
 
 =cut

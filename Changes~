@@ -1,6 +1,14 @@
+v0.0.7      2014-01-26
+    - Minimal version of perl - 5.012 in the prereqs (could be lower, possibly).
+        - For Kwalitee.
+    - Remove the Makefile.PL so we will have "metayml has provides".
+        - Now it's Build.PL-only.
+
 v0.0.6      2014-01-25
     - Add "use strict;" and "use warnings;" to MooX::late modules.
         - Kwalitee
+    - Remove the ^Rejects and ^scripts sub-directories.
+        - They were confusing CPANTS and reduced our Kwalitee.
 
 v0.0.5      2013-01-22
     - skipping compile test for scripts/bump-version-number.pl .

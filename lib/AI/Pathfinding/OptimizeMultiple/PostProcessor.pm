@@ -3,9 +3,11 @@ package AI::Pathfinding::OptimizeMultiple::PostProcessor;
 use strict;
 use warnings;
 
+use 5.012;
+
 use MooX qw/late/;
 
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
 has _should_do_rle => (isa => 'Bool', is => 'ro', init_arg => 'do_rle', required => 1);
 has _offset_quotas => (isa => 'Bool', is => 'ro', init_arg => 'offset_quotas', required => 1);
@@ -75,7 +77,7 @@ AI::Pathfinding::OptimizeMultiple::PostProcessor - post-processor.
 
 =head1 VERSION
 
-version 0.0.6
+version 0.0.7
 
 =head1 SUBROUTINES/METHODS
 
@@ -247,6 +249,6 @@ from your repository :)
 
 L<http://bitbucket.org/shlomif/fc-solve>
 
-  hg clone ssh://hg@bitbucket.org/shlomif/fc-solve
+  git clone ssh://git@bitbucket.org/shlomif/fc-solve.git
 
 =cut

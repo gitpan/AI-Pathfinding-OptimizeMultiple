@@ -11,7 +11,6 @@ my %module_build_args = (
     "Module::Build" => "0.3601"
   },
   "configure_requires" => {
-    "ExtUtils::MakeMaker" => "6.30",
     "Module::Build" => "0.3601"
   },
   "dist_abstract" => "optimize path finding searches for a large\nset of initial conditions (for better average performance).",
@@ -19,7 +18,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "AI-Pathfinding-OptimizeMultiple",
-  "dist_version" => "0.0.6",
+  "dist_version" => "0.0.7",
   "license" => "mit",
   "module_name" => "AI::Pathfinding::OptimizeMultiple",
   "recommends" => {},
@@ -36,6 +35,7 @@ my %module_build_args = (
     "MooX::late" => "0.007",
     "PDL" => 0,
     "PDL::IO::FastRaw" => 0,
+    "perl" => "5.012",
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0
