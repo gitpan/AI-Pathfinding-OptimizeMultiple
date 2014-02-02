@@ -7,7 +7,7 @@ use 5.012;
 
 use MooX qw/late/;
 
-our $VERSION = '0.0.7';
+our $VERSION = '0.0.8';
 
 has iters => (isa => 'Int', is => 'rw', required => 1);
 has scan_idx => (isa => 'Int', is => 'ro', required => 1);
@@ -30,6 +30,8 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 AI::Pathfinding::OptimizeMultiple::ScanRun - running scan_idx for certain
@@ -37,7 +39,7 @@ iterations.
 
 =head1 VERSION
 
-version 0.0.7
+version 0.0.8
 
 =head1 SYNOPSIS
 

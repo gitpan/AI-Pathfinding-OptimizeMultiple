@@ -14,7 +14,7 @@ use AI::Pathfinding::OptimizeMultiple::Scan;
 use PDL;
 use PDL::IO::FastRaw;
 
-our $VERSION = '0.0.7';
+our $VERSION = '0.0.8';
 
 has start_board => (isa => 'Int', is => 'ro', required => 1);
 has num_boards => (isa => 'Int', is => 'ro', required => 1);
@@ -386,13 +386,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 AI::Pathfinding::OptimizeMultiple::DataInputObj - handle the data input.
 
 =head1 VERSION
 
-version 0.0.7
+version 0.0.8
 
 =head1 SUBROUTINES/METHODS
 
