@@ -7,7 +7,7 @@ use 5.012;
 
 use MooX qw/late/;
 
-our $VERSION = '0.0.9';
+our $VERSION = '0.0.10';
 
 has iters => (isa => 'Int', is => 'rw', required => 1);
 has scan_idx => (isa => 'Int', is => 'ro', required => 1);
@@ -39,7 +39,7 @@ iterations.
 
 =head1 VERSION
 
-version 0.0.9
+version 0.0.10
 
 =head1 SYNOPSIS
 

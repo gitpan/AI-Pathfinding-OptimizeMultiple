@@ -22,28 +22,28 @@ name: AI-Pathfinding-OptimizeMultiple
 provides:
   AI::Pathfinding::OptimizeMultiple:
     file: lib/AI/Pathfinding/OptimizeMultiple.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::App::CmdLine:
     file: lib/AI/Pathfinding/OptimizeMultiple/App/CmdLine.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::DataInputObj:
     file: lib/AI/Pathfinding/OptimizeMultiple/DataInputObj.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::IterState:
     file: lib/AI/Pathfinding/OptimizeMultiple/IterState.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::PostProcessor:
     file: lib/AI/Pathfinding/OptimizeMultiple/PostProcessor.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::Scan:
     file: lib/AI/Pathfinding/OptimizeMultiple/Scan.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::ScanRun:
     file: lib/AI/Pathfinding/OptimizeMultiple/ScanRun.pm
-    version: v0.0.9
+    version: v0.0.10
   AI::Pathfinding::OptimizeMultiple::SimulationResults:
     file: lib/AI/Pathfinding/OptimizeMultiple/SimulationResults.pm
-    version: v0.0.9
+    version: v0.0.10
 requires:
   Carp: '0'
   Exception::Class: '0'
@@ -64,4 +64,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=AI-Pathfinding-OptimizeMultiple
   repository: ssh://git@bitbucket.org/shlomif/fc-solve.git
-version: 0.0.9
+version: 0.0.10
