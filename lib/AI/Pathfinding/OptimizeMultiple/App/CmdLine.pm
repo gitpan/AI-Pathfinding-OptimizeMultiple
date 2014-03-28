@@ -11,12 +11,12 @@ use IO::File;
 use AI::Pathfinding::OptimizeMultiple;
 use AI::Pathfinding::OptimizeMultiple::PostProcessor;
 
-our $VERSION = '0.0.8';
+our $VERSION = '0.0.9';
 
 # TODO : restore later.
 # use MyInput;
 
-use Carp;
+use Carp ();
 
 has argv => (isa => 'ArrayRef[Str]', is => 'ro', required => 1,);
 has _arbitrator => (is => 'rw');
@@ -584,7 +584,7 @@ AI::Pathfinding::OptimizeMultiple::App::CmdLine - the command line application c
 
 =head1 VERSION
 
-version 0.0.8
+version 0.0.9
 
 =head1 SUBROUTINES/METHODS
 
