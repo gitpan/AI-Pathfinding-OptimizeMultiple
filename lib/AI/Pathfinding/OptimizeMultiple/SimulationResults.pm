@@ -7,7 +7,7 @@ use 5.012;
 
 use MooX qw/late/;
 
-our $VERSION = '0.0.10';
+our $VERSION = '0.0.11';
 
 has status => (isa => 'Str', is => 'ro', required => 1,);
 has total_iters => (isa => 'Int', is => 'ro', required => 1,);
@@ -37,7 +37,7 @@ AI::Pathfinding::OptimizeMultiple::SimulationResults - the simulation results.
 
 =head1 VERSION
 
-version 0.0.10
+version 0.0.11
 
 =head1 SYNOPSIS
 

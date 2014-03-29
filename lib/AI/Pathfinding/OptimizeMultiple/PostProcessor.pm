@@ -7,7 +7,7 @@ use 5.012;
 
 use MooX qw/late/;
 
-our $VERSION = '0.0.10';
+our $VERSION = '0.0.11';
 
 has _should_do_rle => (isa => 'Bool', is => 'ro', init_arg => 'do_rle', required => 1);
 has _offset_quotas => (isa => 'Bool', is => 'ro', init_arg => 'offset_quotas', required => 1);
@@ -79,7 +79,7 @@ AI::Pathfinding::OptimizeMultiple::PostProcessor - post-processor.
 
 =head1 VERSION
 
-version 0.0.10
+version 0.0.11
 
 =head1 SUBROUTINES/METHODS
 

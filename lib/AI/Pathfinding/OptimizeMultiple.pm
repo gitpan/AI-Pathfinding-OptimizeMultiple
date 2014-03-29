@@ -16,7 +16,7 @@ use MooX qw/late/;
 
 use PDL;
 
-our $VERSION = '0.0.10';
+our $VERSION = '0.0.11';
 
 has chosen_scans => (isa => 'ArrayRef', is => 'rw');
 has _iter_idx => (isa => 'Int', is => 'rw', default => sub { 0; },);
@@ -645,7 +645,7 @@ set of initial conditions (for better average performance).
 
 =head1 VERSION
 
-version 0.0.10
+version 0.0.11
 
 =head1 SYNOPSIS
 

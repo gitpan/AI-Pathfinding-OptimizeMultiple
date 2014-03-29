@@ -7,7 +7,7 @@ use 5.012;
 
 use MooX qw/late/;
 
-our $VERSION = '0.0.10';
+our $VERSION = '0.0.11';
 
 has cmd_line => (isa => 'Str', is => 'ro', required => 1,);
 has id => (isa => 'Str', is => 'ro', required => 1,);
@@ -48,7 +48,7 @@ AI::Pathfinding::OptimizeMultiple::Scan
 
 =head1 VERSION
 
-version 0.0.10
+version 0.0.11
 
 =head1 SLOTS
 
